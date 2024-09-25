@@ -1,16 +1,75 @@
-.col-2,.col-6,.col-3,.col-1,.marg{
-	border:1px solid black;
+.marg{
+ 	border:1px solid black;
+}
+.gmailHeading,.menuDiv{
+	width:430px;
+}
+.menuDiv{
+        width:320px;
+}
+.rightMenus{
+	width:240px;
+}
+.sideMenudiv {
+    	margin-left: 13px;
+    	margin-right: 10px;
+    	position:sticky;
+    	top:0px;
+    	left:0px;
+}
+.sideNav {
+    	background-color: rgb(232, 234, 237);
+      
 }
 .menuIcon{
 	width:24px;
 }
-.header,.col-2,.col-6,.col-3,.col-1{
+.mail {
+    	font-size: 12px;
+   	margin-left: 5px;
+}
+.composeButton:hover {
+    box-shadow: inset 1px 0 0 #ddd, inset -1px 0 0 #ddd, 0 1px 2px 0 #3c40434d, 0 1px 3px 1px #3c404326;
+}
+.inboxDiv:hover {
+    background-color: #d9e0ea;
+}
+.composeButton {
+    	background-color: #c2e7ff;
+    	margin-left: 20px;
+}
+.composeImg {
+    	background-color: #c2e7ff;
+   	 height: 24px;
+}
+.inboxLink {
+    	font-size: 14px;
+}
+.header,.col-2,.col-6,.col-3,.col-1,.col-4{
 	max-height:66px;
 }
 .searchDiv,.searchBar,.activeButton{
         background-color:#dbe1dd;
 }
 .techImg{
-	height:20px;
-        width:40px;
+	height:30px;
+        width:75px;
+}
+.nameDiv{
+        border-color:black;
+}
+.nameLetter{
+	background-color:#3e5fbc;
+        width:37px;
+        height:37px;
+}
+.senderName {
+    	width: 102px;
+}
+.messageSender {
+    	font-size: 13.5px;
+    	width: 102px;    
+}
+.message{
+	width:85%;	
 }

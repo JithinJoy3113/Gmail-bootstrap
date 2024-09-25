@@ -9,86 +9,298 @@
       </script>
    </head>
    <body>
-      <div class="header row">
-	 <div class="col-lg-2 col-md-3 d-flex marg">  	   
-             <div class="menuIcondiv ps-4 pt-1 my-3">
-                 <svg focusable="false" viewBox="0 0 24 24" class="menuIcon" fill="#5f6368">
-                    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
-                 </svg>
-             </div>
-             <div class="gmailImgdiv ps-4 pt-3 ms-3">
-                 <img src="D:\Task2-gmail\Gmail-Inbox\assets\images\gmail.png" class="gmailImg">
-             </div>
-             <div class="headingDiv pt-2 ms-2 mt-1">
-                 <p class="headingGmail fs-4">Gmail</p>
-             </div>
-         </div>
-	  <div class="col-lg-6 col-md-5 d-flex py-2 ps-5 pe-0 marg">  
-             <div class="searchDiv w-100 d-flex rounded-pill ps-3  ms-5 pe-2">
-                <div class="searchButtonDiv pt-2">
-                   <svg focusable="false" height="24px" viewBox="0 0 24 24" width="24px" xmlns="http://www.w3.org/2000/svg" class="searchIcon" fill="#5f6368">
-                      <path d="M20.49,19l-5.73-5.73C15.53,12.2,16,10.91,16,9.5C16,5.91,13.09,3,9.5,3S3,5.91,3,9.5C3,13.09,5.91,16,9.5,16 c1.41,0,2.7-0.47,3.77-1.24L19,20.49L20.49,19z M5,9.5C5,7.01,7.01,5,9.5,5S14,7.01,14,9.5S11.99,14,9.5,14S5,11.99,5,9.5z"></path>
-                      <path d="M0,0h24v24H0V0z" fill="none">
-                      </path>
-                   </svg>
-                </div>
-                <div class="searchBarDiv w-100 pt-2">
-                   <input class="searchBar w-100 border-0" placeholder="Search mail">
-                </div>
-                <div class="searchOptionDiv pt-2">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#5f6368">
-                      <path d="M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z"></path>
-                   </svg>
-                </div>
+      <div class="header d-flex">
+          <div class="gmailHeading d-flex">
+              <div class="menuIcondiv ps-4 pt-1 my-3">
+                  <svg focusable="false" viewBox="0 0 24 24" class="menuIcon" fill="#5f6368">
+                      <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                  </svg>
               </div>
-            </div>
-           <div class="col-1" d-flex>
-               <div class="activeButton rounded-pill d-flex h-75">
-                  <div class="activeGreen text-success fs-5">&#9679;</div>
-                      <div class="active">Active</div>
-                          <svg xmlns="http://www.w3.org/2000/svg" class="bfF activeDrop" height="40" width="40" viewBox="0 0 24 24" fill="currentColor">
-                             <path d="m12 15.375-6-6 1.4-1.4 4.6 4.6 4.6-4.6 1.4 1.4Z"></path>
+              <div class="gmailImgdiv ps-4 pt-3 ms-3">
+                 <img src="D:\Task2-gmail\Gmail-Inbox\assets\images\gmail.png" class="gmailImg">
+              </div>
+              <div class="headingDiv pt-2 ms-2 mt-1">
+                  <p class="headingGmail fs-4">Gmail</p>
+              </div>
+          </div>
+          <div class="header row border pe-0 d-flex w-100">
+              <div class="headerLeft col-xl-7 col-lg-6 col-md-5 d-flex py-2 pe-0 ps-0">
+                  <div class="searchDiv w-100 d-flex rounded-pill ps-3 pe-2">
+                      <div class="searchButtonDiv pt-2">
+                          <svg focusable="false" height="24px" viewBox="0 0 24 24" width="24px" xmlns="http://www.w3.org/2000/svg" class="searchIcon" fill="#5f6368">
+                              <path d="M20.49,19l-5.73-5.73C15.53,12.2,16,10.91,16,9.5C16,5.91,13.09,3,9.5,3S3,5.91,3,9.5C3,13.09,5.91,16,9.5,16 c1.41,0,2.7-0.47,3.77-1.24L19,20.49L20.49,19z M5,9.5C5,7.01,7.01,5,9.5,5S14,7.01,14,9.5S11.99,14,9.5,14S5,11.99,5,9.5z"></path>
+                              <path d="M0,0h24v24H0V0z" fill="none">
+                              </path>
                           </svg>
+                      </div>
+                      <div class="searchBarDiv w-100 pt-2">
+                          <input class="searchBar w-100 border-0" placeholder="Search mail">
+                      </div>
+                      <div class="searchOptionDiv pt-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#5f6368">
+                             <path d="M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z"></path>
+                          </svg>
+                      </div>
+                 </div>
+                </div>
+              <div class="headerRight col-xl-3  col-lg-4 col-md-4 d-flex px-0">
+                  <div class="headerActive col-xl-6 d-flex p-2 ps-2">
+                       <div class="activeButton rounded-pill d-flex py-2 ms-1">
+                           <div class="activeGreen text-success fs-5 ms-2">&#9679;
+                           </div>
+                           <div class="active ps-2 pt-1 d-lg-flex d-md-none">Active
+                           </div>
+                           <svg xmlns="http://www.w3.org/2000/svg" class="bfF activeDrop pt-1" height="30" width="30" viewBox="0 0 24 24" fill="currentColor">
+                               <path d="m12 15.375-6-6 1.4-1.4 4.6 4.6 4.6-4.6 1.4 1.4Z"></path>
+                           </svg>
+                        </div>
+                       </div>
+                       <div class="headerMenu col-xl-6 d-flex ps-2 justify-content-between">
+                           <div class="question col-xl-2 mx-2 pt-3">
+                                <svg class="t7" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#5f6368" focusable="false">
+                                     <path fill="none" d="M0 0h24v24H0z"></path>
+                                      <path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"></path>
+                                 </svg>
+                           </div>                           
+                           <div class="setting col-xl-2  mx-2 pt-3">
+                               <svg class="Xy" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#5f6368">
+                                   <path d="M13.85 22.25h-3.7c-.74 0-1.36-.54-1.45-1.27l-.27-1.89c-.27-.14-.53-.29-.79-.46l-1.8.72c-.7.26-1.47-.03-1.81-.65L2.2 15.53c-.35-.66-.2-1.44.36-1.88l1.53-1.19c-.01-.15-.02-.3-.02-.46 0-.15.01-.31.02-.46l-1.52-1.19c-.59-.45-.74-1.26-.37-1.88l1.85-3.19c.34-.62 1.11-.9 1.79-.63l1.81.73c.26-.17.52-.32.78-.46l.27-1.91c.09-.7.71-1.25 1.44-1.25h3.7c.74 0 1.36.54 1.45 1.27l.27
+                                    1.89c.27.14.53.29.79.46l1.8-.72c.71-.26 1.48.03 1.82.65l1.84 3.18c.36.66.2 1.44-.36 1.88l-1.52 1.19c.01.15.02.3.02.46s-.01.31-.02.46l1.52 1.19c.56.45.72 1.23.37 1.86l-1.86 3.22c-.34.62-1.11.9-1.8.63l-1.8-.72c-.26.17-.52.32-.78.46l-.27 1.91c-.1.68-.72 1.22-1.46 1.22zm-3.23-2h2.76l.37-2.55.53-.22c.44-.18.88-.44 1.34-.78l.45-.34 2.38.96 1.38-2.4-2.03-1.58.07-.56c.03-.26.06-.51.06-.78s-.03-.53-.06-.78l-.07-.56 2.03-1.58-1.39-2.4-2.39.96-.45-.35c-.42-.32-.87-.58-1.33-.77l-.52-.22-.37-2.55h-2.76l-.37 2.55-.53.21c-.44.19-.88.44-1.34.79l-.45.33-2.38-.95-1.39 2.39 2.03 1.58-.07.56a7 7 0 0 0-.06.79c0 .26.02.53.06.78l.07.56-.03                      1.58 1.38 2. 4 2.39-.96.45.35c.43.33.86.58 1.33.77l.53.22.38 2.55z"></path>
+                                   <circle cx="12" cy="12" r="3.5"></circle>
+                               </svg>
+                           </div>
+                           <div class="menu col-xl-2  mx-2 pt-3">
+                               <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-grid-dots" width="23" height="23" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                   <path stroke="none" d="M0 0h24v24H0z" />
+                          	      <circle cx="5" cy="5" r="1" />
+                          	      <circle cx="12" cy="5" r="1" />
+                          	      <circle cx="19" cy="5" r="1" />
+                    	  	      <circle cx="5" cy="12" r="1" />
+                          	      <circle cx="12" cy="12" r="1" />
+                          	      <circle cx="19" cy="12" r="1" />
+                          	      <circle cx="5" cy="19" r="1" />
+                          	      <circle cx="12" cy="19" r="1" />
+                          	      <circle cx="19" cy="19" r="1" />
+                   	       </svg>
+                           </div>
+                       </div>
+                  </div> 
+              <div class="headerImg col-xl-2 col-lg-2 col-md-3 d-flex py-2">
+                  <div class="techImgdiv rounded border border-dark d-flex">
+                      <div class="name p-2">
+                          <img src="assets\images\techversant.png" class="techImg">
+                      </div>
+                      <div class="nameLetter rounded-circle mt-1 me-1 d-flex">
+                          <p class="letter text-white ms-3 pt-1">J</p>
+                      </div> 
+                  </div>
+              </div>    
+          </div>
+       </div>
+       <div class="bodyContents d-flex">
+         <div class="menuDiv d-flex">
+           <div class="sideNav h-100">
+              <div class="sideMenudiv">
+                  <div class="mailDiv pt-1">
+                      <div class="sideIconmail ps-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill mailIcon" viewBox="0 0 16 16">
+                              <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
+                          </svg>
+                      </div>
+                      <div class="mail">Mail</div>
+                   </div>
+                   <div class="mailDiv pt-3">
+                       <div class="sideIcon ps-2">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left mailIcon" viewBox="0 0 16 16">
+                               <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                           </svg>
+                       </div>
+                       <div class="mail">Chat</div>
+                   </div>
+                   <div class="mailDiv pt-3">
+                       <div class="sideIcon ps-2">
+                           <img src="D:\Task2-gmail\Gmail-Inbox\assets\images\gmeet.png" class="mailIcon">
+                       </div>
+                       <div class="mail">Meet</div>
+                   </div>
+             </div>
+        </div>
+        <div class="rightMenudiv">
+            <div class=composeDiv>
+                <div class="composeButton rounded p-3 pe-4 ms-4">
+                    <img src="D:\Task2-gmail\Gmail-Inbox\assets\images\pen.png" class="composeImg">
+                    <a href="" class="composeLink text-decoration-none text-dark">Compose</a>
+                </div>
+            </div>
+            <div class="rightMenus ps-2 mt-3 ms-4">
+                <div class="inboxDivfirst d-flex mt-1 ps-2 py-1 rounded">
+                    <img src="D:\Task2-gmail\Gmail-Inbox\assets\images\inbox.png" class="inboxImg">
+                    <a href="" class="inboxLink text-decoration-none text-dark ps-3"><b>Inbox</b></a>
+                </div>
+                <div class="inboxDiv d-flex mt-1 ps-2 py-1 rounded">
+                    <img src="D:\Task2-gmail\Gmail-Inbox\assets\images\star.png" class="inboxImg">
+                    <a href="" class="inboxLink text-decoration-none text-dark ps-3">Starred</a>
+                </div>
+                <div class="inboxDiv d-flex mt-1 ps-2 py-1 rounded">
+                    <img src="D:\Task2-gmail\Gmail-Inbox\assets\images\clock.png" class="inboxImg">
+                    <a href="" class="inboxLink text-decoration-none text-dark ps-3">Snoozed</a>
+
+                </div>
+                <div class="inboxDiv d-flex mt-1 ps-2 py-1 rounded">
+                    <img src="D:\Task2-gmail\Gmail-Inbox\assets\images\send.png" class="inboxImg">
+                    <a href="" class="inboxLink text-decoration-none text-dark ps-3">Sent</a>
+                </div>
+                <div class="inboxDiv d-flex mt-1 ps-2 py-1 rounded">
+                    <img src="D:\Task2-gmail\Gmail-Inbox\assets\images\file.png" class="inboxImg">
+                    <a href="" class="inboxLink text-decoration-none text-dark ps-3">Drafts</a>
+                </div>
+                <div class="inboxDiv d-flex mt-1 ps-2 py-1 rounded">
+                    <img src="D:\Task2-gmail\Gmail-Inbox\assets\images\more.png" class="inboxImg">
+                    <a href="" class="inboxLink text-decoration-none text-dark ps-3">More</a>
+                </div>
+           </div>
+           <div class="labelDiv d-flex mt-3 ps-5 py-1">
+               <a href="" class="label text-decoration-none text-dark">Labels</a>
+               <img src="D:\Task2-gmail\Gmail-Inbox\assets\images\plus.png" class="">
+           </div>
+         </div>
+       </div>
+       <div class="messageDiv w-75 flex-column ms-4">
+           <div class="messageTop d-flex w-100 ps-2">
+               <div class="checkBoxdiv pt-2 mt-1">
+                   <input type="checkbox" class="check">
+                   <img src="D:\Task2-gmail\Gmail-Inbox\assets\images\drop.png" class="">
+               </div>
+               <div class="refreshDiv pt-3">
+                   <img src="D:\Task2-gmail\Gmail-Inbox\assets\images\refresh.png" class="">
+               </div>
+               <div class="optionDots pt-3">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                       <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+                   </svg>
                </div>
            </div>
-	   <div class="col-3 d-flex py-2 marg">          
-               <div class="helpDiv">
-                   <svg class="t7" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#5f6368" focusable="false">
-                       <path fill="none" d="M0 0h24v24H0z"></path>
-                       <path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"></path>
-                   </svg>
-               </div>
-               <div class="settingsDiv">
-                   <svg class="Xy" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#5f6368">
-                       <path d="M13.85 22.25h-3.7c-.74 0-1.36-.54-1.45-1.27l-.27-1.89c-.27-.14-.53-.29-.79-.46l-1.8.72c-.7.26-1.47-.03-1.81-.65L2.2 15.53c-.35-.66-.2-1.44.36-1.88l1.53-1.19c-.01-.15-.02-.3-.02-.46 0-.15.01-.31.02-.46l-1.52-1.19c-.59-.45-.74-1.26-.37-1.88l1.85-3.19c.34-.62 1.11-.9 1.79-.63l1.81.73c.26-.17.52-.32.78-.46l.27-1.91c.09-.7.71-1.25 1.44-1.25h3.7c.74 0 1.36.54 1.45 1.27l.27
-                        1.89c.27.14.53.29.79.46l1.8-.72c.71-.26 1.48.03 1.82.65l1.84 3.18c.36.66.2 1.44-.36 1.88l-1.52 1.19c.01.15.02.3.02.46s-.01.31-.02.46l1.52 1.19c.56.45.72 1.23.37 1.86l-1.86 3.22c-.34.62-1.11.9-1.8.63l-1.8-.72c-.26.17-.52.32-.78.46l-.27 1.91c-.1.68-.72 1.22-1.46 1.22zm-3.23-2h2.76l.37-2.55.53-.22c.44-.18.88-.44 1.34-.78l.45-.34 2.38.96 1.38-2.4-2.03-1.58.07-.56c.03-.26.06-.51.06-.78s-.03-.53-.06-.78l-.07-.56 2.03-1.58-1.39-2.4-2.39.96-.45-.35c-.42-.32-.87-.58-1.33-.77l-.52-.22-.37-2.55h-2.76l-.37 2.55-.53.21c-.44.19-.88.44-1.34.79l-.45.33-2.38-.95-1.39 2.39 2.03 1.58-.07.56a7 7 0 0 0-.06.79c0 .26.02.53.06.78l.07.56-.03                      1.58 1.38 2. 4 2.39-.96.45.35c.43.33.86.58 1.33.77l.53.22.38 2.55z"></path>
-                       <circle cx="12" cy="12" r="3.5"></circle>
-                   </svg>
-               </div>
-               <div class="menuDiv">
-                   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-grid-dots" width="23" height="23" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                       <path stroke="none" d="M0 0h24v24H0z" />
-                          <circle cx="5" cy="5" r="1" />
-                          <circle cx="12" cy="5" r="1" />
-                          <circle cx="19" cy="5" r="1" />
-                    	  <circle cx="5" cy="12" r="1" />
-                          <circle cx="12" cy="12" r="1" />
-                          <circle cx="19" cy="12" r="1" />
-                          <circle cx="5" cy="19" r="1" />
-                          <circle cx="12" cy="19" r="1" />
-                          <circle cx="19" cy="19" r="1" />
-                   </svg>
-                 </div>         
-               <div class="nameDiv">
-                   <div class="name">
-                       <img src="assets\images\techversant.png" class="techImg">
-                   </div>
-                   <div class="nameLetter">
-                      <p class="letter">J</p>
-                   </div>
-               </div>
-            </div>
+           <div class="rightContents flex-column overflow-hidden">
+                <div class="rightMaildiv d-flex mt-2 ms-1">
+                    <div class="messageDiv d-flex">
+                        <div class="mailCheckdiv d-flex">
+                            <input type="checkbox" class="check">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star star ms-2 mt-2" viewBox="0 0 16 16">
+                                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+                                />
+                            </svg>
+                        </div>
+                        <div class="message d-flex overflow-hidden ps-1">
+                            <div class="nameLetter d-sm-none">
+                                 <p class="letter">J</p>
+                           </div>
+                           <div class="messageDetails overflow-hidden d-flex">
+                            <div class="senderName">
+                                <p class="messageSender"><b>HR Techversant</b></p>    
+                            </div>                           
+                            <div class="senderMessage d-flex">
+                               <span class="messageOne">Welcome Aboard !!!</span>
+                                 <span class="messageTwo">-</span>
+                                 <span class="messageThree  text-truncate ms-2">18th September 2024-Dear Techversans,Greetings for the day !!!We are excited to Greetings for the day</span>                            
+                            </div>
+                            </div>
+                            <div class="messageTimeimg d-flex">
+                                <div class="messageIconsdiv d-none">
+                                    <img src="D:\Task2-gmail\Gmail-Inbox\assets\images\archive.png" class="messageIcon">
+                                    <img src="D:\Task2-gmail\Gmail-Inbox\assets\images\delete.png" class="messageIcon">
+                                    <img src="D:\Task2-gmail\Gmail-Inbox\assets\images\envelop.png" class="messageIcon">
+                                    <img src="D:\Task2-gmail\Gmail-Inbox\assets\images\messageClock.png" class="messageIcon">
+                                </div>
+                                <p class="messageTime">4:30PM</p>
+                                <div class="starDiv d-md-none">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star tabStar" viewBox="0 0 16 16">
+                                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+                                />
+                            </svg>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+              </div>
+           </div>
+
+       </div>
+       
+     </div> <!--bodyContents-->
+  </body>
+</html>
+
+
+
+
+
+
+      
+	 
+	   
+             
+      <!--   </div>          
+         <div class="col-xl-4 col-lg-5 col-md-6 d-flex pe-0"> 
+             <div class="row col-xl-8 col-lg-8 col-md-7 d-flex pe-0">   
+                 <div class="col-xl-6 col-lg-5 col-md-4 d-flex py-2 marg">        
+                     <div class="activeButton rounded-pill d-flex py-2 ms-3">
+                         <div class="activeGreen text-success fs-5 ms-2">&#9679;</div>
+                         <div class="active ps-2 pt-1 d-lg-flex d-md-none">Active</div>
+                         <svg xmlns="http://www.w3.org/2000/svg" class="bfF activeDrop pt-1" height="30" width="30" viewBox="0 0 24 24" fill="currentColor">
+                             <path d="m12 15.375-6-6 1.4-1.4 4.6 4.6 4.6-4.6 1.4 1.4Z"></path>
+                         </svg>
+                      </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-7 col-md-7 d-flex pt-1 justify-content-between marg">               
+                      <div class="helpDiv ms-2 pt-3">
+                          <svg class="t7" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#5f6368" focusable="false">
+                              <path fill="none" d="M0 0h24v24H0z"></path>
+                              <path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"></path>
+                          </svg>
+                      </div>
+                      <div class="settingsDiv ms-4 ps-1 pt-3">
+                          <svg class="Xy" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#5f6368">
+                              <path d="M13.85 22.25h-3.7c-.74 0-1.36-.54-1.45-1.27l-.27-1.89c-.27-.14-.53-.29-.79-.46l-1.8.72c-.7.26-1.47-.03-1.81-.65L2.2 15.53c-.35-.66-.2-1.44.36-1.88l1.53-1.19c-.01-.15-.02-.3-.02-.46 0-.15.01-.31.02-.46l-1.52-1.19c-.59-.45-.74-1.26-.37-1.88l1.85-3.19c.34-.62 1.11-.9 1.79-.63l1.81.73c.26-.17.52-.32.78-.46l.27-1.91c.09-.7.71-1.25 1.44-1.25h3.7c.74 0 1.36.54 1.45 1.27l.27
+                               1.89c.27.14.53.29.79.46l1.8-.72c.71-.26 1.48.03 1.82.65l1.84 3.18c.36.66.2 1.44-.36 1.88l-1.52 1.19c.01.15.02.3.02.46s-.01.31-.02.46l1.52 1.19c.56.45.72 1.23.37 1.86l-1.86 3.22c-.34.62-1.11.9-1.8.63l-1.8-.72c-.26.17-.52.32-.78.46l-.27 1.91c-.1.68-.72 1.22-1.46 1.22zm-3.23-2h2.76l.37-2.55.53-.22c.44-.18.88-.44 1.34-.78l.45-.34 2.38.96 1.38-2.4-2.03-1.58.07-.56c.03-.26.06-.51.06-.78s-.03-.53-.06-.78l-.07-.56 2.03-1.58-1.39-2.4-2.39.96-.45-.35c-.42-.32-.87-.58-1.33-.77l-.52-.22-.37-2.55h-2.76l-.37 2.55-.53.21c-.44.19-.88.44-1.34.79l-.45.33-2.38-.95-1.39 2.39 2.03 1.58-.07.56a7 7 0 0 0-.06.79c0 .26.02.53.06.78l.07.56-.03                      1.58 1.38 2. 4 2.39-.96.45.35c.43.33.86.58 1.33.77l.53.22.38 2.55z"></path>
+                              <circle cx="12" cy="12" r="3.5"></circle>
+                          </svg>
+                      </div>              
+                      <div class="menuDiv ms-3 mt-2 pt-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-grid-dots" width="23" height="23" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" />
+                          	 <circle cx="5" cy="5" r="1" />
+                          	 <circle cx="12" cy="5" r="1" />
+                          	 <circle cx="19" cy="5" r="1" />
+                    	  	 <circle cx="5" cy="12" r="1" />
+                          	 <circle cx="12" cy="12" r="1" />
+                          	 <circle cx="19" cy="12" r="1" />
+                          	 <circle cx="5" cy="19" r="1" />
+                          	 <circle cx="12" cy="19" r="1" />
+                          	 <circle cx="19" cy="19" r="1" />
+                   	   </svg>
+                       </div>  
+                  </div>  
+              </div>
+	      <div class="col-xl-4 col-lg-4 col-md-4 d-flex py-1 px-0 ms-3 marg">                            
+                  <div class="nameDiv ms-2 d-flex border border-secondary rounded my-1">
+                      <div class="name p-2">
+                          <img src="assets\images\techversant.png" class="techImg">
+                      </div>
+                      <div class="nameLetter rounded-circle mt-1 me-1">
+                          <p class="letter text-white ms-3 pt-1">J</p>
+                      </div>             
+                  </div>
+              </div> 
          </div>
       </div>
+      <div class="bodyRow d-flex">
+          <div class="col-3 menuBar h-100"> 
+              
+          </div>
+          <div class="col-9">
+              
+          </div>
+      </div>
    </body>
-</html> 
+</html> -->
