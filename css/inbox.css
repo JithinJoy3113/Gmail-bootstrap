@@ -1,0 +1,175 @@
+body{
+    overflow-x:hidden;
+}
+.gmailHeading,
+.menuDiv {
+    width: 430px;
+}
+.menuDiv {
+    width: 320px;
+}
+.rightMenus {
+    width: 240px;
+}
+.sideMenudiv {
+    margin-left: 13px;
+    margin-right: 10px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+.sideNav {
+    background-color: rgb(232, 234, 237);
+}
+.menuIcon {
+    width: 24px;
+}
+.mail {
+    font-size: 12px;
+    margin-left: 5px;
+}
+.composeButton:hover {
+    box-shadow: inset 1px 0 0 #ddd, inset -1px 0 0 #ddd, 0 1px 2px 0 #3c40434d,
+        0 1px 3px 1px #3c404326;
+}
+.inboxDiv:hover {
+    background-color: #d9e0ea;
+}
+.composeButton {
+    background-color: #c2e7ff;
+    margin-left: 20px;
+    width: 170px;
+}
+.composeImg {
+    background-color: #c2e7ff;
+    height: 24px;
+}
+.inboxLink {
+    font-size: 14px;
+}
+.header,
+.col-2,
+.col-6,
+.col-3,
+.col-1,
+.col-4 {
+    max-height: 66px;
+}
+.searchDiv,
+.searchBar,
+.activeButton {
+    background-color: #dbe1dd;
+}
+.techImg {
+    height: 30px;
+    width: 75px;
+}
+.nameDiv {
+    border-color: black;
+}
+.nameLetter {
+    background-color: #3e5fbc;
+    width: 37px;
+    height: 37px;
+}
+.messageDiv {
+    cursor: pointer;
+}
+.messageOne {
+    font-size: 14px;
+}
+.messageThree {
+    font-size: 14px;
+    color: #666867;
+}
+.senderName {
+    width: 102px;
+    height: 14px;
+}
+.messageIconsdiv {
+    display: none;
+}
+.messageDiv:hover .messageTime {
+    display: none;
+}
+.messageDiv:hover .messageIconsdiv {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+    width: 15%;
+}
+.messageDiv:hover .messageTimeimg {
+    display: flex;
+    justify-content: space-between;
+}
+.messageTimeimg {
+    width: 150px;
+}
+.messageIcon {
+    margin-left: 40%;
+    height: 21px;
+}
+.star {
+    height: 19px;
+    opacity:0.5;
+}
+.messageSender {
+    font-size: 13.5px;
+    width: 102px;
+}
+.messageTime {
+    font-size: 13.5px;
+    color: #666867;
+}
+.messageDiv:hover {
+    box-shadow: inset 1px 0 0 #ddd, inset -1px 0 0 #ddd, 0 1px 2px 0 #3c40434d,
+        0 1px 3px 1px #3c404326;
+}
+.messageDiv:hover .star{
+    opacity:1;
+}
+.tabView {
+    background-color: rgb(232, 234, 237);
+    height: 45px;
+}
+.menuIcon {
+    width: 26px;
+    height: 26px;
+}
+.tabHead {
+    font-size: 18px;
+}
+.refresh {
+    width: 26px;
+    height: 26px;
+}
+.tabsearchDiv {
+    height: 40px;
+    border: 1px solid #c4c7c5;
+}
+.tabSearch {
+    font-size: 17px;
+}
+.searchDivphone {
+    height: 50px;
+    max-width: 590px;
+    background-color: #dbe1dd;
+    border-radius: 22px;
+}
+.searchDivphone > .nameLetter {
+    background-color: #3e5fbc;
+    width: 50px;
+    height: 34px;
+}
+.message > .nameLetter {
+    background-color: #3e5fbc;
+    width: 50px;
+    height: 34px;
+}
+.footer {
+    padding-left: 450px;
+}
+.footerText {
+    color: #666867;
+    font-size: 12px;
+}
